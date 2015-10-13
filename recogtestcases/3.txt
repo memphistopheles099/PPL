@@ -1,0 +1,13 @@
+class abc extends abd {
+static final integer a=10;
+final nsd b=4+a;
+void abd(and,uaw:float; shk,nofw,nof:integer){
+	if -a<12 then return;
+	else if a>3 then{
+		while e<v do {
+			io.writeline("Hello");
+			e:=e+1;
+		}
+	}
+}
+}

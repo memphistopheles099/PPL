@@ -1,0 +1,793 @@
+class Shape {
+	static final integer numOfShape = 0;
+	final integer immuAttribute = 0;
+	final integer immuAttribute = "dsds";
+	length,width: float[3];
+	integer static getNumOfShape() {
+		tungson: Shape[3];
+		a[8]:= null; # Hay vai dai
+		a := new Shape(32/2,7%2);
+		a:= !false;
+		self.aPI := 3.14/2;
+		if true then self.gundam(true);
+		else self.gundam(false);
+		value := x.foo(5);
+		k := p[3].t();
+		self.t[5]:=self.m(x);
+		l[8].m(9%2).a := 9;
+		a := 1;
+		l[8].k := value * 2; # Hay vai dai
+		x.b[2] := x.m()[3];
+		a[3+x.foo(2)] := a[b[2]] +3;
+		b := 3 + 3 * a[2+3] - - + - + 2 / you;
+		if true then return l[9].k;
+	}
+	float getNew(a:integer; b:float) {}
+}
+class Rectangle extends Shape {
+	float getArea(){
+		return self.length*self.width;
+	}
+}
+class Example1 {
+	integer factorial(n:integer){
+		if n == 0 then return 1; else return n * self.factorial(n - 1);
+	}
+	void main(){
+		x:integer;
+		x := io.readInt();
+		io.writeIntLn(self.factorial(x));
+	}
+}
+class Shape {
+	length,width:float;
+	float getArea() {}
+	Shape(length,width:float){
+		self.length := length;
+		self.width := width;
+	}
+}
+class Rectangle extends Shape {
+	float getArea(){
+		return self.length*self.width;
+	}
+}
+class Triangle extends Shape {
+	float getArea(){
+		return self.length*self.width / 2;
+	}
+}
+class Example2 {
+	void main(){
+		#start of declaration part
+		r,s:float;
+		s:Shape;
+		a,b:integer[5];
+		my1stVar: integer;
+		myArrayVar: integer[5];
+		static my2ndVar, my3rdVar: Shape;
+		static my2ndArray, my3rdArray: Shape[6];
+		#list of statements
+		r:=2.0;
+		s:=r*r*self.myPI();
+		a[0]:= s;
+		self.aPI := 3.14;
+		l[3] := value * 2;
+		if flag then
+			r:=2.0;
+		else
+			io.writeStrLn ("Expression is false");
+		s := new Rectangle(3,4);
+		io.writeFloatLn(s.getArea());
+		s := new Triangle(3,4);
+		io.writeFloatLn(s.getArea());
+		a[3+x.foo(2)[3]] := a[b[2]] +3;
+		x.b[2] := x.m(2)[3];
+	}
+}
+
+class
+abc
+{
+void
+func
+()
+{
+a
+.
+a
+.
+a
+.
+a
+:=
+"abc"
+*
+1
+/
+-
+-
+-
+-
++
++
++
++
++
+2
+\
+3
+%
+4
+[
+1
+>
+1
+&&
+!
+!
+1
+==
+1
+%
+2
+^
+1
++
+1
+*
+-
++
++
+-
+-
+-
+-
++
+-
+1
+/
+1
+\
+2
+-
+1
+]
+^
+!
+-
+new
+A
+(
+1
+,
+2
+,
+3
+)
+.
+a
+[
+1
+]
+;
+a
+.
+a
+:=
+1
+>
+1
+&&
+!
+!
+1
+==
+1
+%
+2
+^
+1
++
+1
+*
+-
++
++
+-
+-
+-
+-
++
+-
+1
+/
+1
+\
+2
+-
+1
+;
+a
+.
+a
+:=
+1
+>
+1
+<>
+1
+^
+!
+1
+\
+1
+-
+1
+%
+1
+||
+1
+;
+a
+.
+a
+:=
+(
+1
+*
+1
++
+1
+/
+!
+1
+&&
+1
+^
+1
+^
+1
+||
+1
+==
+1
+>
+!
+!
+!
+1
+)
+.
+abc
+(
+1
+>
+1
+<>
+1
+^
+!
+1
+\
+1
+-
+1
+%
+1
+||
+1
+)
+;
+a
+.
+b
+(
+)
+.
+c
+(
+)
+.
+d
+:=
+2
+;
+new
+a
+(
+)
+.
+v
+.
+b
+.
+f
+(
+)
+.
+d
+.
+f
+(
+)
+.
+d
+:=
+1
+;
+self
+.
+aPI
+:=
+3.14
+;
+value
+:=
+x
+.
+foo
+(
+5
+)
+;
+l
+[
+3
+]
+:=
+value
+*
+2
+;
+}
+}
+class
+Shape
+{
+my1stVar
+:
+integer
+;
+myArrayVar
+:
+integer
+[
+5
+]
+;
+static
+my2ndVar
+,
+my3rdVar
+:
+Shape
+;
+static
+my2ndArray
+,
+my3rdArray
+:
+Shape
+[
+6
+]
+;
+static
+final
+integer
+numOfShape
+=
+0
+;
+final
+integer
+immuAttribute
+=
+0
+;
+final
+integer
+My1stCons
+=
+1
++
+5
+;
+static
+final
+integer
+My2ndCons
+=
+2
+;
+length
+,
+width
+:
+float
+;
+integer
+static
+getNumOfShape
+(
+)
+{
+return
+numOfShape
+;
+}
+}
+class
+Rectangle
+extends
+Shape
+{
+float
+getArea
+(
+)
+{
+{
+r
+,
+s
+:
+float
+;
+a
+,
+b
+:
+integer
+[
+5
+]
+;
+r
+:=
+2.0
+;
+s
+:=
+r
+*
+r
+*
+self
+.
+myPI
+;
+a
+[
+0
+]
+:=
+s
+;
+if
+flag
+then
+io
+.
+writeStrLn
+(
+"Expression is true"
+)
+;
+else
+io
+.
+writeStrLn
+(
+"Expression is false"
+)
+;
+}
+return
+self
+.
+length
+*
+self
+.
+width
+;
+Shape
+.
+getNumOfShape
+(
+)
+;
+}
+}
+class
+Shape
+{
+length
+,
+width
+:
+float
+;
+float
+getArea
+(
+)
+{
+}
+Shape
+(
+length
+,
+width
+:
+float
+)
+{
+self
+.
+length
+:=
+length
+;
+self
+.
+width
+:=
+width
+;
+}
+}
+class
+Rectangle
+extends
+Shape
+{
+float
+getArea
+(
+)
+{
+return
+self
+.
+length
+*
+self
+.
+width
+;
+}
+}
+class
+Triangle
+extends
+Shape
+{
+float
+getArea
+(
+)
+{
+return
+self
+.
+length
+*
+self
+.
+width
+/
+2
+;
+}
+}
+class
+Example2
+{
+void
+main
+(
+)
+{
+s
+:
+Shape
+;
+s
+:=
+new
+Rectangle
+(
+3
+,
+4
+)
+;
+io
+.
+writeFloatLn
+(
+s
+.
+getArea
+(
+)
+)
+;
+s
+:=
+new
+Triangle
+(
+3
+,
+4
+)
+;
+io
+.
+writeFloatLn
+(
+s
+.
+getArea
+(
+)
+)
+;
+}
+}
+class
+Example1
+{
+integer
+factorial
+(
+n
+:
+integer
+)
+{
+if
+n
+==
+0
+then
+return
+1
+;
+else
+return
+n
+*
+self
+.
+factorial
+(
+n
+-
+1
+)
+;
+}
+void
+main
+(
+)
+{
+x
+:
+integer
+;
+x
+:=
+io
+.
+readInt
+(
+)
+;
+io
+.
+writeIntLn
+(
+self
+.
+factorial
+(
+x
+)
+)
+;
+}
+}
+class
+abc
+extends
+def
+{
+final
+integer
+ax
+=
+3
+;
+x
+:
+int
+;
+}
+class
+A
+extends
+B
+{
+void
+main
+(
+a
+:
+integer
+)
+{
+}
+}
+class
+A
+{
+void
+main
+(
+a
+:
+integer
+)
+{
+}
+}
+class
+Main
+{
+M
+[
+4
+]
+main
+(
+)
+{
+if a>b then a:=3;x.b[2]:=x.m()[3];
+}
+M
+[
+4
+]
+main
+(
+)
+{
+if
+a
+>
+b
+then
+a
+:=
+3
+;
+a
+.
+a
+(
+)
+.
+a
+.
+b
+(
+)
+;
+}
+}
