@@ -1,0 +1,7 @@
+class abc {
+	void main () {
+		a:integer;
+		b:float;
+		a:string;		
+	}
+}

@@ -1,0 +1,5 @@
+class abc {
+	void main() {
+		a := 1;
+	}
+}

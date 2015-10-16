@@ -10,6 +10,7 @@ import java.util.concurrent.{Executors,TimeUnit,TimeoutException}
 import org.antlr.v4.runtime.ANTLRFileStream
 //import bkool.utils._
 import bkool.parser._
+import bkool.checker._
 
 trait Timed {
   def timeoutAfter(timeout: Long)(codeToTest: => Unit): Unit = {
@@ -50,7 +51,17 @@ object Main extends  Timed {
       val indirphase3 = "asttestcases"
       val outdirphase3 = "astsolutions"
       
+      val startp1a2 = 1
+      val endp1a2 = 2
       
+      val startp2a2 = 3
+      val endp2a2 = 4
+      
+      val startp3a2 = 5
+      val endp3a2 = 6
+      
+      val indira2 = "checkertestcases"
+      val outdira2 = "checkersolutions"
       
       option match {
         
@@ -64,6 +75,9 @@ object Main extends  Timed {
             runTest("testphase2",startphase2,endphase2,indirphase2,outdirphase2)
             runTest(option,startphase3,endphase3,indirphase3,outdirphase3)
         }
+        case "testp1a2" => runTest("testp1a2",startp1a2,endp1a2,indira2,outdira2)
+        case "testp2a2" => runTest("testp2a2",startp1a2,endp2a2,indira2,outdira2)
+        case "testp3a2" => runTest("testp3a2",startp1a2,endp3a2,indira2,outdira2)
         case _ => throw new ClassCastException
       }
     }
@@ -88,6 +102,8 @@ object Main extends  Timed {
               case "testphase1" => TestLexer.test(source,dest) 
               case "testphase2" => TestParser.test(source,dest)              
               case "testphase3"  => TestAst.test(source,dest)
+              case ("testp1a2"|"testp2a2"|"testp3a2") => TestChecker.test(source,dest)
+              
               case _ => throw new ClassCastException
           }
         }

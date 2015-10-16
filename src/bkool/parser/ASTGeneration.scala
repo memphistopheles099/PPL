@@ -57,7 +57,8 @@ class ASTMemberListGen extends BKOOLBaseVisitor[List[MemDecl]]{
 class ASTMemberGen extends BKOOLBaseVisitor[MemDecl]{
   override def visitMth_dec (ctx: BKOOLParser.Mth_decContext) =
     MethodDecl(if (ctx.STATIC()==null) Instance else Static, Id(ctx.ID.getText),
-      if(ctx.prmlist()!=null)ctx.prmlist().accept(new ASTParameterGen) else List(), ctx.getChild(0).accept(new ASTTypeGen),
+      if(ctx.prmlist()!=null)ctx.prmlist().accept(new ASTParameterGen) else List(),
+      ctx.getChild(0).accept(new ASTTypeGen),
       ctx.blk_stm().accept(new ASTStmtGen))
   override def visitCtr_dec(ctx: BKOOLParser.Ctr_decContext) = MethodDecl(Instance,Id(ctx.ID().getText),if(ctx.prmlist()!=null)ctx.prmlist().accept(new ASTParameterGen) else List(),null,ctx.blk_stm().accept(new ASTStmtGen))
       

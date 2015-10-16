@@ -1,0 +1,5 @@
+class abc {
+	abc(){}
+	integer def(){}
+}
+class def{}
